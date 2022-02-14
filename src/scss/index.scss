@@ -1,0 +1,30 @@
+@import 'fonts';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: #000000;
+}
+
+.section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: 'Helvetica-Medium';
+    color: #ffffff;
+    font-size: 7vmin;
+    padding: 0 10%;
+    will-change: transform;
+}
+
+.section:nth-child(even){
+    justify-content: flex-end;
+}
